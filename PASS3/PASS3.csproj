@@ -80,7 +80,7 @@
     <Error Condition="!Exists('..\packages\MonoGame.Framework.DesktopGL.3.7.0.1708\build\MonoGame.Framework.DesktopGL.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MonoGame.Framework.DesktopGL.3.7.0.1708\build\MonoGame.Framework.DesktopGL.targets'))" />
   </Target>
   <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>if not exist "$(TargetDir)Content" mkdir "$(TargetDir)Content"
+xcopy /E /I /Y "$(ProjectDir)Content\*" "$(TargetDir)Content\"</PostBuildEvent>
   </PropertyGroup>
 </Project>

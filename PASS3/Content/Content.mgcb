@@ -1,8 +1,8 @@
 
 #----------------------------- Global Properties ----------------------------#
 
-/outputDir:..\bin\Debug\Content
-/intermediateDir:obj/$(Platform)
+/outputDir:../bin/Release/Content
+/intermediateDir:obj/Content
 /platform:DesktopGL
 /config:
 /profile:Reach
