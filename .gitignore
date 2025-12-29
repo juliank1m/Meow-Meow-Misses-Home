@@ -1,0 +1,30 @@
+# Visual Studio / IDE
+.vs/
+.vSCode/
+*.user
+*.suo
+
+# Build output
+bin/
+obj/
+
+# NuGet packages (classic projects)
+packages/
+
+# MonoGame generated content output
+**/Content/bin/
+**/Content/obj/
+
+# Debug symbols
+*.pdb
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
